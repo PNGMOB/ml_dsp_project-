@@ -121,3 +121,11 @@ NOTE_EMOJI = {
     "G": "🥁", "A": "🎷", "B": "🪗",
 }
 
+
+# ─────────────────────────────────────────────
+#  INSTANTIATE — import these singletons elsewhere
+# ─────────────────────────────────────────────
+AUDIO    = AudioConfig()
+MODEL    = ModelConfig()
+TRAINING = TrainingConfig()
+PATHS    = PathConfig()
